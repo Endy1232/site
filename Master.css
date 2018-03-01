@@ -1,42 +1,41 @@
 * {
-    box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: arial;
 }
-
 /* Style the header */
 .header {
     background-color: #1e90ff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: white;
+}
+/*Image formatting*/
+.image {
+	align-content: center;
+	width: 100%;
+	height: auto;
+	padding: 5px;
 }
 /* Create two unequal columns that floats next to each other */
 .column {
     float: left;
-    padding: 20px;
+    padding: 10px;
 }
-
 /* Left column */
 .column.side {
     width: 25%;
 }
-
 /* Middle column */
 .column.middle {
     width: 75%;
 }
-
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .column.side, .column.middle {
