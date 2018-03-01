@@ -10,18 +10,10 @@ body {
     text-align: center;
     color: white;
 }
-/* Create two unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 10px;
-}
-/* Left column */
-.column.side {
-    width: 25%;
-}
-/* Middle column */
+/*Column*/
 .column.middle {
-    width: 75%;
+    width: 100%;
+    padding: 10px;
 }
 /* Clear floats after the columns */
 .row:after {
