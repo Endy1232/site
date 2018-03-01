@@ -10,13 +10,6 @@ body {
     text-align: center;
     color: white;
 }
-/*Image formatting*/
-.image {
-	align-content: center;
-	width: 100%;
-	height: auto;
-	padding: 5px;
-}
 /* Create two unequal columns that floats next to each other */
 .column {
     float: left;
